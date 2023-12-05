@@ -36,8 +36,5 @@ f = open('data.json')
 data = json.load(f)
 for i in data:
     i['color'] = convert_rgb_to_names((i['r'], i['g'], i['b']))
-    del i['r']
-    del i['g']
-    del i['b']
 f.close()
 createCsv()
