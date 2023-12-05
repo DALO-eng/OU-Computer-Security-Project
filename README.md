@@ -41,7 +41,9 @@ sudo apt-get install Netcat
 
 # Pip modules
 pip install webcolors
-pip install scipy
+pip install pyshark
+pip install pandas
+pip install matplotlib
 ```
 
 ## Usage
